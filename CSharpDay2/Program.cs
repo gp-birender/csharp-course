@@ -2,8 +2,8 @@
 
 
 
-// WorkItem item = new WorkItem(1, "Implement feature X", "In Progress", "High");  
-// Console.WriteLine($"ID: {item.Id}");
+// WorkItem item = new WorkItem(1, "Implement feature X", "In Progress", "High");  git
+// Console.WriteLine($"ID: {item.Id}");dotnet new console -n WorkItemManager 
 // Console.WriteLine($"Title: {item.Title}");
 // Console.WriteLine($"Status: {item.Status}");
 // Console.WriteLine($"Priority: {item.Priority}");
