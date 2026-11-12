@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build CollectionsLinq",
+            "command": "/usr/local/share/dotnet/dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/CollectionsLinq/CollectionsLinq.csproj"],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build WorkItemManager",
+            "command": "/usr/local/share/dotnet/dotnet",
+            "type": "process",
+            "args": ["build", "${workspaceFolder}/WorkItemManager/WorkItemManager.csproj"],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
